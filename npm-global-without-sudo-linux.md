@@ -42,3 +42,10 @@ MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 Inspired from this [answer on
 StackOverflow](http://stackoverflow.com/a/13021677).
 
+
+##Alternative: When building node from source
+
+When you have are installing node from a source code checkout, be it from a tarball or a git repository, for example following this guide: https://github.com/joyent/node/wiki/Installation
+
+Instead of `configure`, write `configure --prefix ~/.npm-packages`
+
